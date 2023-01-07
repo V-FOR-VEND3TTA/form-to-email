@@ -1,0 +1,9 @@
+C8FCF0AFF535B526011B2FC4DC7F3F70128D
+
+smtp.elasticemail.com
+
+SMTP Port: 2525
+
+Host : "smtp.elasticemail.com",
+Username : "george@big-o-media.com",
+Password : "C8FCF0AFF535B526011B2FC4DC7F3F70128D",

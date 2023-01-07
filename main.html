@@ -10,15 +10,19 @@
 <body>
     <!--Contact Form-->
     <div class="container">
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Tell Us About Your Query</h3>
             <input type="text" id="name" placeholder="Please enter your name" required>
             <input type="email" id="email" placeholder="Please enter your email" required>
-            <input type="number" id="phone-number" placeholder="Enter your phone number">
+            <input type="tel" id="phoneNumber" placeholder="Enter your phone number" maxlength="10" title="Enter your 10 digit phone number"
+            >
             <textarea id="message" cols="30" rows="4" placeholder="How can we help you ?"></textarea>
             <button type="submit">Send</button>
         </form>
     </div>
+    <!--SMTP JS-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--Send email functionality-->
     <script src="js/script.js"></script>
 </body>
 </html>
